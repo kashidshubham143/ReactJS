@@ -1,0 +1,20 @@
+.app{
+   padding:50px;
+  text-align: center;
+  min-height: 100vh;
+  transition: all 1.5s ease;
+}
+.app.light{
+  background-color:teal;
+  color:#222
+}
+.app.dark{
+   background-color: #1c1c1c;
+   color:#f9f9f9
+}
+button{
+  padding:10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor:pointer
+}
