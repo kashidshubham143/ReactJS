@@ -13,21 +13,8 @@ class Register extends React.Component{
       }
    }
    update=(e)=>{
-    // if(e.target.name=="name")
-    // {
-    // this.setState({name:e.target.value});
-    // }
-    // if(e.target.name=="email")
-    // {
-    // this.setState({email:e.target.value});
-    // }
-    // if(e.target.name=="contact")
-    // {
-    // this.setState({contact:e.target.value});
-    // }
      this.setState({[e.target.name]:e.target.value});
    }
-   
    render(){
     return   <>
         <input type='text'  name='name' value={this.state.name}   className="control" onChange={(e)=>this.update(e)} /><br/><br/>
