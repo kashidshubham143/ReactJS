@@ -3,7 +3,7 @@ import ReactDom from "react-dom";
 class App extends React.Component {
   constructor(){
     super();
-    this.state={
+    this.state={ 
       first:"",
       second:"",
       result:""
