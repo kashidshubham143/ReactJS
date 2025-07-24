@@ -5,8 +5,8 @@
   transition: all 1.5s ease;
 }
 .app.light{
-  background-color:teal;
-  color:#222
+  background-color:aliceblue;
+  color:black;
 }
 .app.dark{
    background-color: #1c1c1c;
